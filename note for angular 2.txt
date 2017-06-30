@@ -1,0 +1,19 @@
+1. install npm and node 
+2. go to folder where u want to create project
+3. install  npm install -g @angular/cli@latest
+4. ng new project name 
+5 cd project name  to enter in project
+6. check project is created correctly or not run ng serve command
+7. to install angualr material npm install --save @angular/material
+8. npm install --save @angular/animations to add browser animation.
+9. import @import '~@angular/material/prebuilt-themes/deeppurple-amber.css'; in style.css
+10. npm install -S hammerjs and npm install --save-dev @types/hammerjs
+
+import { FormsModule } from '@angular/forms';
+
+import { MaterialModule } from '@angular/material';
+____________________________________________*****************-----------------
+
+Notes 
+when we use  formGroup we need to add ReactiveFormsModule then it will work ,
+import { FormGroup, FormBuilder, Validators } from '@angular/forms';
